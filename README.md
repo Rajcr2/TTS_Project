@@ -66,7 +66,7 @@ After Running this file you will get output message.
 ### Conclusion
 
 So, this is very basic tts_project like a one text data you can pass a paragraph as well or set of Multiple sentences using SQLite.
-For that stay tuned.
+For that update stay tuned.
 
 
 
