@@ -12,10 +12,11 @@ To run this project, you need to install the following libraries:
 ### Required Libraries
 
 - **Python 3.9.0+**
-- **TTS**: This NLP toolkit consist of comprehensive libraries which work with human language data.
-- **PyTorch**: Consist of tools, libraries which are used to train and deploy machine learning model.
-- **TorchVison and TorchAudio**: Flask is a lightweight and flexible web framework for Python, designed to make it easy to build web applications quickly.
-- **Transformers**
+- **TTS**: Text-to-Speech (TTS) library in Python that converts text into spoken audio using offline speech synthesis.
+- **PyTorch**: This library is primarily used for building and training deep learning models.
+- **TorchVison and TorchAudio**: These are companion libraries for PyTorch mainly used for fine-tuning deep learning models for vision applications like object detection and segmentation and audio as well.
+- **Transformers**: This library is given by Hugging Face as a Python package which provides pre-trained models for NLP tasks like text generation, translation, and sentiment analysis.
+
 
 Other Utility Libraries : **soundfile**, **datasets**.
 
