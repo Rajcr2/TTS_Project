@@ -1,66 +1,73 @@
-# Conversational CHATBOT for NGAIF-Stories Application.
+# Text-to-Speech Project
 
 ## Introduction
 
-This is my Internship project. I have created a chatbot for NGAIF-Stories Application to improve user experience and make app more interactive. 
-This stories app developed by Nextgen AI frameworks for story lovers who crave diversity and accesibility in their reading experience.
+This is my Internship project. Where we can pass a text to a XTTS_V2 pre-trained model then it will convert it into a speech into a specific voice given by us which in the .wav format.
+So, Lets see.
 
-Play Store Link -> https://play.google.com/store/apps/details?id=com.ngaif.stories
+XTTS Model (Download Link) -> [https://play.google.com/store/apps/details?id=com.ngaif.stories](https://huggingface.co/coqui/XTTS-v2/tree/main)
 
 ### Prerequisites
 To run this project, you need to install the following libraries:
 ### Required Libraries
 
-- **Python 3.12+**
-- **NLTK**: This NLP toolkit consist of comprehensive libraries which work with human language data.
-- **Tensorflow**: Consist of tools, libraries which are used to train and deploy machine learning model.
-- **Flask**: Flask is a lightweight and flexible web framework for Python, designed to make it easy to build web applications quickly. 
+- **Python 3.9.0+**
+- **TTS**: This NLP toolkit consist of comprehensive libraries which work with human language data.
+- **PyTorch**: Consist of tools, libraries which are used to train and deploy machine learning model.
+- **TorchVison and TorchAudio**: Flask is a lightweight and flexible web framework for Python, designed to make it easy to build web applications quickly.
+- **Transformers**
 
-Other Utility Libraries : **json**, **pickle**, **numpy**, **random**.
+Other Utility Libraries : **soundfile**, **datasets**.
 
 ### Installation
 
    ```
-   pip install nltk
-   pip install tensorflow
-   pip install Flask
-   pip install numpy
-   pip install json
-   pip install pickle
+   pip install TTS
+   pip install torch==2.1.0
+   pip install torchvision==0.16.0
+   pip install torchaudio==2.1.0
+   pip install transformers
+   pip install soundfile
+   pip install datasets
    ```
 
 ### Procedure
 
-1.   Create new directory **'Stories_Chatbot'**.
+1.   Create new directory **'TTS_Project'**.
 2.   Inside that directory/folder create new environment.
    
    ```
-   python -m venv chatbot
+   python -m venv tts
    ```
 
-  Now, activate this **'chatbot'** venv.
+  Now, activate this **'tts'** venv.
   
 4.   Clone this Repository :
 
    ```
-   git clone https://github.com/RJ2ndgit/NGAIF-Stories_Chatbot.git
+   git clone https://huggingface.co/coqui/XTTS-v2
    ```
+   By cloning this it will download "XTTS_V2 Model" with the help of which we will convert out Text into Speech.
+
 5.   Now, Install all mentioned required libraries in your environment.
-6.   After, that Run **'main.py'** file from Terminal. To train the model.
+6.   After, that Run **'tts.py'** file from Terminal. To train the model.
    ```
-   python main.py
-   ``` 
-7.   After, Model Training completed just Run the **'stories_app.py'** file and check the output in the browser.
+   python tts.py
    ```
-   python stories_app.py
-   ```
-
-
-
-
 
 ### Output
 
-https://github.com/user-attachments/assets/321f36d7-521a-4ce7-8e10-32973aa38f5e
+After Running this file you will get output message.
+     **'Speech synthesis complete and saved to output.wav'**
+
+![image](https://github.com/user-attachments/assets/b1efcc67-a8a3-4444-8952-5f8235a8737e)
+
+### Conclusion
+
+So, this is very basic tts_project like a one text data you can pass a paragraph as well or set of Multiple sentences using SQLite.
+For that stay tuned.
+
+
+
 
 
