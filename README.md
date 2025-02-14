@@ -5,7 +5,7 @@
 This is my Internship project. Where we can pass a text to a XTTS_V2 pre-trained model then it will convert it into a speech to a specific voice given by us which in the .wav format.
 So, Lets see.
 
-XTTS Model (Download Link) -> [https://play.google.com/store/apps/details?id=com.ngaif.stories](https://huggingface.co/coqui/XTTS-v2/tree/main)
+XTTS Model (Download Link) -> [https://huggingface.co/coqui/XTTS-v2/tree/main)]
 
 ### Prerequisites
 To run this project, you need to install the following libraries:
