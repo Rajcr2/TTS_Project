@@ -48,7 +48,7 @@ Other Utility Libraries : **soundfile**, **datasets**.
    ```
    git clone https://huggingface.co/coqui/XTTS-v2
    ```
-   By cloning this it will download "XTTS_V2 Model" with the help of which we will convert out Text into Speech.
+   By cloning this it will download "XTTS_V2 Model" with the help of which we will convert our Text into Speech.
 
 5.   Now, Install all mentioned required libraries in your environment.
 6.   After, that Run **'tts.py'** file from Terminal. To train the model.
