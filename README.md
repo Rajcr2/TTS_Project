@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is my Internship project. Where we can pass a text to a XTTS_V2 pre-trained model then it will convert it into a speech into a specific voice given by us which in the .wav format.
+This is my Internship project. Where we can pass a text to a XTTS_V2 pre-trained model then it will convert it into a speech to a specific voice given by us which in the .wav format.
 So, Lets see.
 
 XTTS Model (Download Link) -> [https://play.google.com/store/apps/details?id=com.ngaif.stories](https://huggingface.co/coqui/XTTS-v2/tree/main)
